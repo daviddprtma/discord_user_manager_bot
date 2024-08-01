@@ -1,0 +1,8 @@
+[package]
+name = "discord_user_manager_bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serenity = { version = "0.10", features = ["client", "gateway", "model"] }
+tokio = { version = "1", features = ["full"] }
