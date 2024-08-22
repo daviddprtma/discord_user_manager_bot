@@ -4,5 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-serenity = { version = "0.10", features = ["client", "gateway", "model"] }
-tokio = { version = "1", features = ["full"] }
+dotenv = "0.15.0"
+env_logger = "0.11.5"
+poise = { version="0.6.1", git="https://github.com/serenity-rs/poise.git", branch="current" }
+serenity = "0.12.2"
+tokio = { version = "1.39.3", features = ["macros", "rt-multi-thread"] }
