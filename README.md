@@ -22,7 +22,6 @@ https://drive.google.com/file/d/12ey3eoo67z4Sjzpk9k3VN4OVGZI9F8O6/view?usp=shari
 [(Back to top)](#table-of-contents)
 
 This is the installation description that you can follow through below: 
-You can add snippets here that your readers can copy-paste with click:
 
 1.) Clone this project 
 ```shell
@@ -46,7 +45,7 @@ cargo run
 # License
 [(Back to top)](#table-of-contents)
 
-You can also mention what license the project uses. I usually add it like this:
+This project is licensed under ⬇️
 
 [MIT license](./LICENSE)
 
