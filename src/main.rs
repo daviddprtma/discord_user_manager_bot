@@ -45,7 +45,6 @@ async fn main() {
 
     let options = poise::FrameworkOptions {
         commands: vec![ // TODO: Easier way to add all commands
-            commands::help(),
             commands::age(),
             commands::count(),
             commands::get_count(),
